@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>password reset</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+ crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Sense You've Been Gone</h1>
+    <h2>Sensor Monitor System</h2>
+
+    <form id="login" action="reset_passwd.php" method="post">
+        <table align="center">
+            <tbody>
+                <tr>
+                    <td id="Text1">Activation Code</td>
+                    <td><input type=text name="act_code" id="UNInput"></td>
+                </tr>
+
+                <tr>
+                    <td id="Text1">Password</td>
+                    <td><input type=password name="password" id="PasswordInput"></td>
+                </tr>
+
+                <tr>
+                    <td id="Text1">Re-enter Password</td>
+                    <td><input type=password name="password2" id="PasswordInput"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input type="submit" name="submit" id="BTN1" value="RESET"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+
+</body>
+</html>
+

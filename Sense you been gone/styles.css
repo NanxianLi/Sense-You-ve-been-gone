@@ -1,0 +1,121 @@
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-webkit-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+h1 {
+    text-align: center;
+    -webkit-animation: fadein 2s;
+    animation: fadein 2s;
+    padding: 50px 50px 50px;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: top;
+    font-size: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    background: #5E63B6;
+}
+
+h2 {
+    border-radius: 25px;
+    border: 2px solid #000000;
+    background: #FFFFFF;
+    padding: 10px;
+    width: 280px;
+    height: 10px;
+    text-align: center;
+    -webkit-animation: fadein 2s;
+    animation: fadein 2s;
+
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    margin-right:auto;
+    margin-left:auto;
+    line-height:10px;
+}
+
+form {
+    text-align: center;
+}
+
+#Text1{
+    -webkit-animation: fadein 2s;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #5E63B6;
+}
+
+#UNInput{
+width:200px;
+height:30px;
+maxlength:40;
+}
+
+#PasswordInput{
+width:200px;
+height:30px;
+maxlength:40;}
+
+#BTN1{
+    background-color:#CCCCCC;
+    border:none;
+    color:#000000;
+    font-size:26px;
+    padding:12px 38px;
+    font-weight: bold;
+    border-radius: 8px;
+    width:200px;
+}
+
+#BTN2{
+    background-color:#CCCCCC;
+    border:none;
+    color:#000000;
+    font-size:26px;
+    padding:12px 38px;
+    font-weight: bold;
+    border-radius: 8px;
+    height:100px;
+    width:200px;
+}
+
+
+#ForgetPassword{
+    line-height:80px;
+    color:#A393EB;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#AppleLink{
+    width:50px;
+    height:50px;
+}
+
+#AndroidLink{
+    width:50px;
+    height:50px;
+}
+
+#SensorConfirmBTN{
+    line-height:80px;
+    color:#A393EB;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#ALPicture{
+width:30px;
+height:30px;
+}
